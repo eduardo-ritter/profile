@@ -1,0 +1,154 @@
+/* importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+/* auto ajuste de tamanho de tela */
+@media (max-width: 2400px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 640px;
+  }
+}
+@media (max-width: 640px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 560px;
+  }
+}
+@media (max-width: 560px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 480px;
+  }
+}
+
+/* styles */
+body {
+  background-color: rgb(230,230,230);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(60,60,60);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1, h2, h3 {
+  color: rgb(49, 85, 90);
+  font-family: 'Comfortaa', cursive;
+  line-height: 40px;
+}
+
+h1 {
+  margin: 24px 0;
+  padding: 8px 0px 0px 30px;
+  line-height: 60px;
+  box-shadow: -2px 0px 10px rgba(46, 44, 44, 0.493);
+  border-radius: 10px 0 0 10px;
+  background-color: rgb(59, 53, 97);
+  color: white;
+}
+
+h2 {
+  margin: 8px 0;
+  padding: 0 0 0 8px;
+  background-color: rgba(0, 255, 255, .1);
+}
+
+h3 {
+  padding: 0 0 0 32px;
+  margin: 0 auto;
+}
+
+p {
+  padding: 0 0 0 40px;
+  margin: 0;
+  line-height: 24px;
+}
+
+.container {
+  margin: 40px auto;
+}
+
+div.cards {
+  margin: 16px;
+  padding: 16px 0 16px 16px;
+  height: auto;
+  border-radius: 10px;
+  border-color: white;
+  border: 1px dashed white;
+  box-shadow: 0px 0px 10px black;
+  background-color:white;
+}
+
+#bio > h3 {
+  color:rgb(59, 53, 97);
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 0;
+}
+
+.img-center {
+  display: flex;
+  margin: 0 auto;
+  padding: 0px 5px;
+  align-content: space-between;
+  background-color: black;
+}
+
+.avatar {
+  border-radius: 50%;
+  border-color: white;
+  box-shadow: 0px 0px 10px black;
+  width: 200px;
+}
+
+.list-inline li {
+  display: inline-flex;
+  align-content: space-around;
+  padding: 0 16px;
+}
+
+li > a {
+  text-decoration: none;
+  width: 20px;
+}
+
+ul {
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#btn_linkedin {
+  padding: 12px 8px;
+  width: 180px;
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 2px black; */
+  background-color: rgba(59, 53, 97, .5);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+#btn_linkedin:hover {
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.list-inline > h3 {
+  color: rgb(59, 53, 97);
+  text-align: center;
+  padding: 0;
+}
+
+.midia-icons {
+  width: 100%;
+}
