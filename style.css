@@ -24,7 +24,8 @@
 
 /* styles */
 body {
-  background-color: rgb(230,230,230);
+  /* background-color: rgb(230,230,230); */
+  background-image: linear-gradient(to right, rgba(230,230,230,0.5), rgba(0, 0, 0, 0.3));
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(60,60,60);
   font-size: 16px;
@@ -40,11 +41,13 @@ h1, h2, h3 {
 h1 {
   margin: 24px 0;
   padding: 8px 0px 0px 30px;
-  line-height: 60px;
+  line-height: 50px;
   box-shadow: -2px 0px 10px rgba(46, 44, 44, 0.493);
   border-radius: 10px 0 0 10px;
-  background-color: rgb(59, 53, 97);
+  /* background-color: rgb(59, 53, 97); */
+  background-image: linear-gradient(to right,rgb(59, 53, 97), rgba(0, 0, 0, 0.3));
   color: white;
+  font-size: 18px;
 }
 
 h2 {
