@@ -98,6 +98,7 @@ div.cards {
 .avatar {
   border-radius: 50%; 
   width: 180px;
+  background-size: contain;
 }
 
 .list-inline li {
